@@ -139,5 +139,5 @@ int longestSubarrayWithSumK(std::vector<int> a, int k) {
 int main()
 {   
     std::vector<int> a = {2, 3, 1, 7, 11, 4};
-    std::cout << two___sum(a, 100);
+    
 }

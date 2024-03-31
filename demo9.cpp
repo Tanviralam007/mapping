@@ -319,5 +319,8 @@ std::vector<int> next_GreaterPermutation(std::vector<int> &a)
 
 int main()
 {
-    
+    std::vector<int> a = {2, 3, 1, 7, 11, 4};
+    std::vector<int> o = re(a, 101);
+    if(o[0] != -1 && o[1] != -1) std::cout << o[0] << " " << o[1];
+    else std::cout << "invalid";
 }
